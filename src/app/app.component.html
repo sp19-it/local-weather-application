@@ -1,7 +1,12 @@
-<div style="text-align: center;">
-  <title>Local Weather</title>
+<div style="text-align: center; font-family: 'Bitter', serif;"> 
+  <mat-toolbar color="primary" style="font-family: 'Bitter';">
+    Weather App
+  </mat-toolbar>
   <div>Your city, your forecast, right now!</div>
-  <h2>
+  <div>
+    <app-city-search></app-city-search>
+  </div>
+  <mat-card color="primary" style="font-family: 'Bitter';">
     <app-current-weather></app-current-weather>
-  </h2>
+  </mat-card>
 </div>
